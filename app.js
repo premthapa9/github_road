@@ -14,30 +14,6 @@ form.addEventListener("submit", function (event) {
 
 list.addEventListener("click", function (event) {
   if (event.target.tagName === "LI") {
-    event.target.remove();
-  }
-});
-
-list.addEventListener("click", function (event) {
-  if (event.target.tagName === "LI") {
-    event.target.classList.toggle("completed");
-  }
-});
-
-list.addEventListener("click", function (event) {
-  if (event.target.tagName === "LI") {
-    event.target.remove();
-  }
-});
-list.addEventListener("click", function (event) {
-  if (event.target.tagName === "LI") {
-    event.target.classList.toggle("completed");
-  }
-});
-list.addEventListener("click", function (event) {
-  if (event.target.tagName === "LI") {
-    event.target.remove();
-  } else if (event.target.tagName === "LI") {
     event.target.classList.toggle("completed");
   }
 });
